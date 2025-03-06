@@ -1,0 +1,80 @@
+.service h1 {
+   color: rgb(99, 99, 236);;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 100px;
+    margin-top: 100px;
+}
+.services-itemspad {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 650px;
+    list-style: none;
+    margin: 100px;
+}
+.services-itemspad h3 {
+    color: rgb(99, 99, 236);
+    font-size: 35px;
+}
+.portfolio h1 {
+   color:  rgb(99, 99, 236);
+    font-size: 100px;
+}
+.portfolio p {
+color: rgb(99, 99, 236);
+margin-left: 400px;
+margin-right: 400px;
+}
+.portfolio {
+display: flex;
+overflow: scroll;
+}
+.inlineimag img {
+   width: 300px;
+   height: 200px;
+   object-fit: cover;
+   animation: autoscrol 5s ;
+}
+.inlineimage img.active {
+    opacity: 1
+}
+.hireimage {
+    position: relative;
+    margin-top: 300px;
+
+}
+.hireimage img {
+margin-left: 500px;
+box-shadow: 5px 5px 5px;
+z-index: -4;
+}
+.hire {
+    position: absolute;
+    top: 20%;
+    left: 50;
+    margin-left: 100px;
+    transform: translate(-50, -50);
+    font-size: 55px;
+    z-index: 1;
+    padding-left: 100;
+    color: rgb(99, 99, 236);
+}
+.hireimage button {
+    margin-left: 150px;
+    box-shadow: 0 0 15px;
+    justify-content: center;
+    border-radius: 0 0 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 20;
+}
+.camara {
+    position: absolute;
+    z-index: 1;
+    margin-top: 450px;
+    margin-left: 400px;
+
+}

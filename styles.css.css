@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav-items {
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    list-style: none;
+    text-decoration: none;
+   
+}
+span {
+    padding-left: 30px;
+}
+.nav .nav-items a {
+    color: black;
+}
+.nav-items a:hover {
+    color: gray;
+    text-decoration: bold;
+}
+.nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+.nav {
+padding-top: 5px;
+}
+body {
+    background-color: rgb(240, 237, 237);
+}

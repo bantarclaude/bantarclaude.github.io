@@ -1,0 +1,28 @@
+footer {
+    background-color: rgb(214, 9, 9);
+    box-shadow: 0 0 20px;
+    
+}
+.foot {
+    margin-left: 50;
+    margin-top: 40px;
+    margin-right: 500;
+
+}
+.foot-items {
+    padding-top: 100px;
+    display: flex;
+    gap: 200px;
+    margin-left: 100px;
+    list-style: none;
+}
+.foot-items h2{
+    font-size: 30px;
+    text-align: inline;
+}
+.foot-items p  {
+    margin-right: 50px;
+}
+.foot-items img {
+    justify-items: center;
+}
