@@ -12,7 +12,8 @@ body  {
     background-color: white;
 }
 .left-section {
-    width: 100%;
+    width: 50%;
+    height: 400px;
     padding: 5px;
     background-color: white;
     color: whitesmoke;

@@ -35,7 +35,13 @@ overflow: scroll;
    height: 200px;
    object-fit: cover;
    animation: autoscrol 5s ;
+   
 }
+.inlineimage {
+    display: flex;
+    overflow: scroll;
+    }
+
 .inlineimage img.active {
     opacity: 1
 }
